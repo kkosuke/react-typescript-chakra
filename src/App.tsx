@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Button } from "@chakra-ui/button";
 
 function App() {
