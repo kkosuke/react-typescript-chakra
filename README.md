@@ -52,3 +52,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - https://chakra-ui.com/docs/components/text/usage#changing-the-font-size
 - https://chakra-ui.com/docs/styled-system/theme#breakpoints
 - `npm i @chakra-ui/icons`
+- https://chakra-ui.com/docs/components/button/props
+- https://chakra-ui.com/docs/components/toast/usage
+- https://v1.chakra-ui.com/docs/components/feedback/toast
