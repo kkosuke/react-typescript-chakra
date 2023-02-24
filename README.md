@@ -49,3 +49,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # chakra-ui
 
 - https://chakra-ui.com/docs/styled-system/theme
+- https://chakra-ui.com/docs/components/text/usage#changing-the-font-size
+- https://chakra-ui.com/docs/styled-system/theme#breakpoints
+- `npm i @chakra-ui/icons`
