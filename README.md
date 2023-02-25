@@ -55,3 +55,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - https://chakra-ui.com/docs/components/button/props
 - https://chakra-ui.com/docs/components/toast/usage
 - https://v1.chakra-ui.com/docs/components/feedback/toast
+- https://chakra-ui.com/docs/components/modal
