@@ -7,6 +7,7 @@ import { UserCard } from "../organisms/user/UserCard";
 import { useDisclosure } from "@chakra-ui/react";
 import { UserDetailModal } from "../organisms/user/UserDetailModal";
 import { useSelectUser } from "../../hooks/useSelectUser";
+import { useLoginUser } from "../../hooks/useLoginUser";
 
 export const UserManagement: FC = memo(() => {
   const { getUsers, loading, users } = useAllUsers();
@@ -19,6 +20,8 @@ export const UserManagement: FC = memo(() => {
     },
     [onOpen, onSelectUser, users]
   );
+  const { loginUser } = useLoginUser();
+  console.log(loginUser);
   return (
     <>
       {loading ? (
@@ -51,7 +54,12 @@ export const UserManagement: FC = memo(() => {
           ))}
         </Wrap>
       )}
-      <UserDetailModal isOpen={isOpen} onClose={onClose} user={selectedUser} />
+      <UserDetailModal
+        isOpen={isOpen}
+        onClose={onClose}
+        user={selectedUser}
+        isAdmin={loginUser?.isAdmin}
+      />
     </>
   );
 });
