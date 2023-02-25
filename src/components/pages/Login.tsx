@@ -23,7 +23,7 @@ export const Login: FC = memo(() => {
         <Divider my="4" />
         <Stack spacing={6} px="10">
           <Input
-            placeholder="ユーザーID"
+            placeholder="ユーザーID（1〜10）"
             value={userId}
             onChange={(e) => onChangeUserId(e)}
           />
